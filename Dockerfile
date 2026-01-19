@@ -5,7 +5,7 @@ RUN NONINTERACTIVE=1 curl -sSf https://cli.nexus.xyz/ | sh
 
 CMD /bin/bash -c '\
 echo "Starting Nexus CLI at $(date)"; \
-stdbuf -oL /root/.nexus/bin/nexus-cli start --node-id 37610033 --headless & \
+stdbuf -oL /root/.nexus/bin/nexus-cli start --node-id 37249756 --headless & \
 NEXUS_PID=$!; \
 echo "Nexus PID: $NEXUS_PID"; \
 sleep 10; \
